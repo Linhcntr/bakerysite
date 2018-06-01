@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html>
+<title>linhsbakery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px">
+</head>
+<style type="text/css">
+	.showcase{
+	background: url('cake.jpg') no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 240px 130px;
+	color:#ffffff;
+}
+h4{
+	/*height: 100%;*/
+    font-family: 'Slabo 27px', serif !important;
+}
+
+</style>
+<body>
+<!-- Navigation bar-->
+<!--stay at the top of the page, even when  user scrolls the page.-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="w3-bar w3-red w3-grayscale">
+<span class="w3-bar-item  w3-mobile w3-wide"><b>linhs</b>bakery</span>
+<span class="w3-display-topmiddle w3-hide-small" > <!--navigation bar has black color-->
+<a href ="#about" class="w3-bar-item w3-button">ABOUT</a> <!--Create button for nav bar -->
+<a href ="#menu" class="w3-bar-item w3-button">MENU</a>
+<a href ="#contact" class="w3-bar-item w3-button">CONTACT</a>
+</span>
+</div>
+
+<!--background with text -->
+<div class="showcase w3-display-container w3-grayscale" id="home">
+<div class="w3-container w3-center">
+<span class="w3-text-white" style="font-size: 70px"> WELCOME </span>
+<hr>
+
+
+</div>
+</div>
+<!--MENU session-->	
+ <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="m.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About the Bakery</h1><br>
+      <p class="w3-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    
+	</div>
+  </div>
+   <hr>
+
+ <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="f.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="contact">
+  <div class="w3-content">
+    <h3 class="w3-center w3-jumbo" style="margin-bottom:64px">CONTACT </h3>
+     <p> Call us at 0xxx-xxxx-xxxx</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+
+</body>
+
+
+
+</header>
+</html>
